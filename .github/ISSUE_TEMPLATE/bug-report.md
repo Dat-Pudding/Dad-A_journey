@@ -1,6 +1,6 @@
 ---
 name: BUG REPORT
-about: Create a report to help us improve
+about: Create a report to help improve
 title: "[BUG] {PLATFORM} {VERSION} {ISSUE TYPE}"
 labels: bug
 assignees: Dat-Pudding
