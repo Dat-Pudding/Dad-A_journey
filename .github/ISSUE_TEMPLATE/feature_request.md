@@ -1,9 +1,9 @@
 ---
-name: Feature request
+name: Feature Request
 about: Suggest an idea for this project
-title: ''
-labels: ''
-assignees: 'Dat-Pudding'
+title: [FEATURE] {DEADLINE} {SUMMARY}
+labels: Feature
+assignees: Dat-Pudding
 
 ---
 
