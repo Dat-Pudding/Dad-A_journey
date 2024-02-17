@@ -1,7 +1,7 @@
 ---
 name: Feature Request
 about: Suggest an idea for this project
-title: "[FEATURE] {DEADLINE} {SUMMARY}"
+title: "[FEATURE] {PLATFORM} {SUMMARY}"
 labels: Feature
 assignees: Dat-Pudding
 
