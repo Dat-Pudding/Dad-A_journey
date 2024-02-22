@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement_SideScroll : MonoBehaviour
@@ -15,16 +14,18 @@ public class PlayerMovement_SideScroll : MonoBehaviour
 
     Rigidbody2D playerRigidbody; // Rigidbody2D attached to the "Player" GameObject
     Transform playerTransform;  // Transform of "Player" container GameObject
+
     RaycastHit2D headRayHit2D;
     RaycastHit2D footRayHit2D;
+
     float horizontalInput;
     float xVelocity;
     float yVelocity;
     bool isOnGround;
     bool isJumping;
-    public bool isCrouching;
-    public bool isStanding;
-    public bool canStandUp;
+    bool isCrouching;
+    bool isStanding;
+    bool canStandUp;
 
     void Start()
     {
@@ -33,6 +34,7 @@ public class PlayerMovement_SideScroll : MonoBehaviour
 
         playerRigidbody.gravityScale = gravity;
         playerRigidbody.mass = playerMass;
+        isStanding = true;
     }
 
     void Update() // Checking for Inputs, changing values accordingly
@@ -77,9 +79,8 @@ public class PlayerMovement_SideScroll : MonoBehaviour
         }
         if (!isCrouching && canStandUp)
         {
-            StandUp(playerRigidbody, playerTransform);
+            StandUp(playerRigidbody);
         }
-        DebugSignals();
     }
 
     void MoveLateral(Transform player, float movementSpeed, float xAxisInput) // Takes overloads to perform lateral movement of the player's Transform
@@ -114,10 +115,11 @@ public class PlayerMovement_SideScroll : MonoBehaviour
         else
         {
             isOnGround = false;
+            return;
         }
     }
 
-    void GetCrouched(Rigidbody2D player) // Disables BoxCollider2D and "standing" GameObject
+    void GetCrouched(Rigidbody2D player) // Disables BoxCollider2D and "crouching" GameObject
     {
         if (isCrouching)
         {
@@ -127,7 +129,7 @@ public class PlayerMovement_SideScroll : MonoBehaviour
         }
     }
 
-    void StandUp(Rigidbody2D player, Transform pTransform) // Enables BoxCollider2D and "standing" GameObject
+    void StandUp(Rigidbody2D player) // Enables BoxCollider2D and "standing" GameObject
     {
         if (canStandUp && isStanding)
         {
@@ -140,6 +142,7 @@ public class PlayerMovement_SideScroll : MonoBehaviour
     void CheckForCeiling(Transform pTransform, Transform head) // Casts Ray2D upwards from "Head" Transform, sets bool true if hitting any collider except "Player"
     {
         headRayHit2D = Physics2D.Raycast(head.position, pTransform.up, 0.5f, 3);
+
         if (headRayHit2D.collider == null)
         {
             canStandUp = true;
@@ -148,11 +151,5 @@ public class PlayerMovement_SideScroll : MonoBehaviour
         {
             canStandUp = false;
         }
-    }
-
-    void DebugSignals() // Casting RayLines as Gizmo for Editor
-    {
-        Debug.DrawRay(playerHead.position, playerTransform.up, Color.green, 0.5f, false);
-        Debug.DrawRay(playerFeet.position, -playerTransform.up, Color.red, 0.5f, false);
     }
 }

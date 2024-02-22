@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d8d07aa65cb18c4c9fc2bfa9f0da81f, type: 3}
+  m_Name: AirPot
+  m_EditorClassIdentifier: 
+  itemSprite: {fileID: 2747690628134850419, guid: b670ab75dde984907b8570040daa08c5, type: 3}
+  itemName: Air Pot
+  itemType: Pots
+  itemDescription: Don't get this near your ears, you will hear it - once
+  itemCount: 0
+  hasAcquired: 0
+  itemNames:
+  - Herb
+  - Key
+  - Pot Shard
+  - Fire Pot
+  - Water Pot
+  - Air Pot
+  - Light Pot
+  - Empty Pot
+  itemTypes:
+  - Consumables
+  - Pots
+  - Misc
+  itemDescriptions:
+  - As you learned from your father, this type of plant is the ideal emergency treatment
+    for wounds - as long as it's not life-threatening that is.
+  - Keys unlock things. But why does everyone seemingly have the same lock everwhere?
+  - If you can get enough of them, maybe with some glue you can get an as-good-as-new
+    pot?
+  - No one understands wherefrom this pot draws seemingly infinite energy. One guy
+    who tried looking into the opening got immediately incinerated. Just be grateful
+    that it doesn't burn your hands while holding it!
+  - Your pot runneth over!
+  - Don't get this near your ears, you will hear it - once
+  - Less bright than a modern flashlight. And way more clunky and cumbersome to handle.
+    And a lot heavier as well. But hey, it works without batteries!
+  - As empty vessels make the loudest sound. ~ P
+  nameSelect: 5
+  typeSelect: 1
+  descriptionSelect: 5
