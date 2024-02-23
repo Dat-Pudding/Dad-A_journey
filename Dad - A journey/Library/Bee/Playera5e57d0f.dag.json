@@ -259,7 +259,9 @@
         251,
         252,
         253,
-        254
+        254,
+        255,
+        256
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -401,7 +403,7 @@
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 17770,
+      "PayloadLength": 17870,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
@@ -505,6 +507,7 @@
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
@@ -1544,6 +1547,18 @@
       "DebugActionIndex": 92
     },
     {
+      "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.MemoryProfiler.dll",
+      "DisplayName": "Copying Unity.MemoryProfiler.dll",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.dll"
+      ],
+      "Outputs": [
+        "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.MemoryProfiler.dll"
+      ],
+      "DebugActionIndex": 93
+    },
+    {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "DisplayName": "Copying Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
       "ActionType": "CopyFiles",
@@ -1553,7 +1568,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll",
@@ -1565,7 +1580,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.dll",
@@ -1577,7 +1592,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1589,7 +1604,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Animation.Runtime.dll",
@@ -1601,7 +1616,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Animation.Runtime.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Tilemap.Extras.dll",
@@ -1613,7 +1628,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Tilemap.Extras.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UI.dll",
@@ -1625,7 +1640,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.InternalAPIEngineBridge.001.dll",
@@ -1637,7 +1652,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.InternalAPIEngineBridge.001.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Common.Runtime.dll",
@@ -1649,7 +1664,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Common.Runtime.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll",
@@ -1661,7 +1676,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Timeline.dll",
@@ -1673,7 +1688,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Mathematics.dll",
@@ -1685,7 +1700,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Mathematics.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll",
@@ -1697,7 +1712,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1709,7 +1724,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll",
@@ -1721,7 +1736,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1733,7 +1748,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.Unsafe.dll",
@@ -1745,7 +1760,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.Unsafe.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Runtime.dll",
@@ -1757,7 +1772,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Runtime.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/netstandard.dll",
@@ -1769,7 +1784,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Mono.Security.dll",
@@ -1781,7 +1796,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1793,7 +1808,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Configuration.dll",
@@ -1805,7 +1820,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Core.dll",
@@ -1817,7 +1832,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1829,7 +1844,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Data.dll",
@@ -1841,7 +1856,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Drawing.dll",
@@ -1853,7 +1868,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.EnterpriseServices.dll",
@@ -1865,7 +1880,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1877,7 +1892,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.IO.Compression.dll",
@@ -1889,7 +1904,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Net.Http.dll",
@@ -1901,7 +1916,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Numerics.dll",
@@ -1913,7 +1928,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Runtime.Serialization.dll",
@@ -1925,7 +1940,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Security.dll",
@@ -1937,7 +1952,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1949,7 +1964,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Transactions.dll",
@@ -1961,7 +1976,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Xml.Linq.dll",
@@ -1973,7 +1988,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Xml.dll",
@@ -1985,7 +2000,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.dll",
@@ -1997,7 +2012,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/mscorlib.dll",
@@ -2009,7 +2024,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AIModule.pdb",
@@ -2021,7 +2036,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AIModule.pdb"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ARModule.pdb",
@@ -2033,7 +2048,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ARModule.pdb"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AccessibilityModule.pdb",
@@ -2045,7 +2060,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AccessibilityModule.pdb"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AndroidJNIModule.pdb",
@@ -2057,7 +2072,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AndroidJNIModule.pdb"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AnimationModule.pdb",
@@ -2069,7 +2084,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AnimationModule.pdb"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AssetBundleModule.pdb",
@@ -2081,7 +2096,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AudioModule.pdb",
@@ -2093,7 +2108,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.AudioModule.pdb"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClothModule.pdb",
@@ -2105,7 +2120,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClothModule.pdb"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClusterInputModule.pdb",
@@ -2117,7 +2132,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClusterInputModule.pdb"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClusterRendererModule.pdb",
@@ -2129,7 +2144,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ClusterRendererModule.pdb"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 142
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ContentLoadModule.pdb",
@@ -2141,7 +2156,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ContentLoadModule.pdb"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 143
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.CoreModule.pdb",
@@ -2153,7 +2168,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.CoreModule.pdb"
       ],
-      "DebugActionIndex": 143
+      "DebugActionIndex": 144
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.CrashReportingModule.pdb",
@@ -2165,7 +2180,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.CrashReportingModule.pdb"
       ],
-      "DebugActionIndex": 144
+      "DebugActionIndex": 145
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.DSPGraphModule.pdb",
@@ -2177,7 +2192,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.DSPGraphModule.pdb"
       ],
-      "DebugActionIndex": 145
+      "DebugActionIndex": 146
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.DirectorModule.pdb",
@@ -2189,7 +2204,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.DirectorModule.pdb"
       ],
-      "DebugActionIndex": 146
+      "DebugActionIndex": 147
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GIModule.pdb",
@@ -2201,7 +2216,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GIModule.pdb"
       ],
-      "DebugActionIndex": 147
+      "DebugActionIndex": 148
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GameCenterModule.pdb",
@@ -2213,7 +2228,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GameCenterModule.pdb"
       ],
-      "DebugActionIndex": 148
+      "DebugActionIndex": 149
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GridModule.pdb",
@@ -2225,7 +2240,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.GridModule.pdb"
       ],
-      "DebugActionIndex": 149
+      "DebugActionIndex": 150
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.HotReloadModule.pdb",
@@ -2237,7 +2252,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.HotReloadModule.pdb"
       ],
-      "DebugActionIndex": 150
+      "DebugActionIndex": 151
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.IMGUIModule.pdb",
@@ -2249,7 +2264,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.IMGUIModule.pdb"
       ],
-      "DebugActionIndex": 151
+      "DebugActionIndex": 152
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ImageConversionModule.pdb",
@@ -2261,7 +2276,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ImageConversionModule.pdb"
       ],
-      "DebugActionIndex": 152
+      "DebugActionIndex": 153
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.InputLegacyModule.pdb",
@@ -2273,7 +2288,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.InputLegacyModule.pdb"
       ],
-      "DebugActionIndex": 153
+      "DebugActionIndex": 154
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.InputModule.pdb",
@@ -2285,7 +2300,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.InputModule.pdb"
       ],
-      "DebugActionIndex": 154
+      "DebugActionIndex": 155
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.JSONSerializeModule.pdb",
@@ -2297,7 +2312,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.JSONSerializeModule.pdb"
       ],
-      "DebugActionIndex": 155
+      "DebugActionIndex": 156
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.LocalizationModule.pdb",
@@ -2309,7 +2324,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.LocalizationModule.pdb"
       ],
-      "DebugActionIndex": 156
+      "DebugActionIndex": 157
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.NVIDIAModule.pdb",
@@ -2321,7 +2336,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.NVIDIAModule.pdb"
       ],
-      "DebugActionIndex": 157
+      "DebugActionIndex": 158
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ParticleSystemModule.pdb",
@@ -2333,7 +2348,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ParticleSystemModule.pdb"
       ],
-      "DebugActionIndex": 158
+      "DebugActionIndex": 159
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PerformanceReportingModule.pdb",
@@ -2345,7 +2360,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PerformanceReportingModule.pdb"
       ],
-      "DebugActionIndex": 159
+      "DebugActionIndex": 160
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.Physics2DModule.pdb",
@@ -2357,7 +2372,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.Physics2DModule.pdb"
       ],
-      "DebugActionIndex": 160
+      "DebugActionIndex": 161
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PhysicsModule.pdb",
@@ -2369,7 +2384,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PhysicsModule.pdb"
       ],
-      "DebugActionIndex": 161
+      "DebugActionIndex": 162
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ProfilerModule.pdb",
@@ -2381,7 +2396,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ProfilerModule.pdb"
       ],
-      "DebugActionIndex": 162
+      "DebugActionIndex": 163
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PropertiesModule.pdb",
@@ -2393,7 +2408,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.PropertiesModule.pdb"
       ],
-      "DebugActionIndex": 163
+      "DebugActionIndex": 164
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb",
@@ -2405,7 +2420,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.pdb"
       ],
-      "DebugActionIndex": 164
+      "DebugActionIndex": 165
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ScreenCaptureModule.pdb",
@@ -2417,7 +2432,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.ScreenCaptureModule.pdb"
       ],
-      "DebugActionIndex": 165
+      "DebugActionIndex": 166
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SharedInternalsModule.pdb",
@@ -2429,7 +2444,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SharedInternalsModule.pdb"
       ],
-      "DebugActionIndex": 166
+      "DebugActionIndex": 167
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SpriteMaskModule.pdb",
@@ -2441,7 +2456,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SpriteMaskModule.pdb"
       ],
-      "DebugActionIndex": 167
+      "DebugActionIndex": 168
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SpriteShapeModule.pdb",
@@ -2453,7 +2468,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SpriteShapeModule.pdb"
       ],
-      "DebugActionIndex": 168
+      "DebugActionIndex": 169
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.StreamingModule.pdb",
@@ -2465,7 +2480,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.StreamingModule.pdb"
       ],
-      "DebugActionIndex": 169
+      "DebugActionIndex": 170
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SubstanceModule.pdb",
@@ -2477,7 +2492,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SubstanceModule.pdb"
       ],
-      "DebugActionIndex": 170
+      "DebugActionIndex": 171
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SubsystemsModule.pdb",
@@ -2489,7 +2504,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.SubsystemsModule.pdb"
       ],
-      "DebugActionIndex": 171
+      "DebugActionIndex": 172
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TLSModule.pdb",
@@ -2501,7 +2516,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TLSModule.pdb"
       ],
-      "DebugActionIndex": 172
+      "DebugActionIndex": 173
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TerrainModule.pdb",
@@ -2513,7 +2528,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TerrainModule.pdb"
       ],
-      "DebugActionIndex": 173
+      "DebugActionIndex": 174
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb",
@@ -2525,7 +2540,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TerrainPhysicsModule.pdb"
       ],
-      "DebugActionIndex": 174
+      "DebugActionIndex": 175
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb",
@@ -2537,7 +2552,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextCoreFontEngineModule.pdb"
       ],
-      "DebugActionIndex": 175
+      "DebugActionIndex": 176
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb",
@@ -2549,7 +2564,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextCoreTextEngineModule.pdb"
       ],
-      "DebugActionIndex": 176
+      "DebugActionIndex": 177
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextRenderingModule.pdb",
@@ -2561,7 +2576,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TextRenderingModule.pdb"
       ],
-      "DebugActionIndex": 177
+      "DebugActionIndex": 178
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TilemapModule.pdb",
@@ -2573,7 +2588,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.TilemapModule.pdb"
       ],
-      "DebugActionIndex": 178
+      "DebugActionIndex": 179
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UIElementsModule.pdb",
@@ -2585,7 +2600,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UIElementsModule.pdb"
       ],
-      "DebugActionIndex": 179
+      "DebugActionIndex": 180
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UIModule.pdb",
@@ -2597,7 +2612,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UIModule.pdb"
       ],
-      "DebugActionIndex": 180
+      "DebugActionIndex": 181
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UmbraModule.pdb",
@@ -2609,7 +2624,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UmbraModule.pdb"
       ],
-      "DebugActionIndex": 181
+      "DebugActionIndex": 182
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb",
@@ -2621,7 +2636,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.pdb"
       ],
-      "DebugActionIndex": 182
+      "DebugActionIndex": 183
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb",
@@ -2633,7 +2648,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityAnalyticsModule.pdb"
       ],
-      "DebugActionIndex": 183
+      "DebugActionIndex": 184
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityConnectModule.pdb",
@@ -2645,7 +2660,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityConnectModule.pdb"
       ],
-      "DebugActionIndex": 184
+      "DebugActionIndex": 185
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityCurlModule.pdb",
@@ -2657,7 +2672,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityCurlModule.pdb"
       ],
-      "DebugActionIndex": 185
+      "DebugActionIndex": 186
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb",
@@ -2669,7 +2684,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityTestProtocolModule.pdb"
       ],
-      "DebugActionIndex": 186
+      "DebugActionIndex": 187
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb",
@@ -2681,7 +2696,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.pdb"
       ],
-      "DebugActionIndex": 187
+      "DebugActionIndex": 188
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb",
@@ -2693,7 +2708,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestAudioModule.pdb"
       ],
-      "DebugActionIndex": 188
+      "DebugActionIndex": 189
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestModule.pdb",
@@ -2705,7 +2720,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestModule.pdb"
       ],
-      "DebugActionIndex": 189
+      "DebugActionIndex": 190
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb",
@@ -2717,7 +2732,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestTextureModule.pdb"
       ],
-      "DebugActionIndex": 190
+      "DebugActionIndex": 191
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb",
@@ -2729,7 +2744,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UnityWebRequestWWWModule.pdb"
       ],
-      "DebugActionIndex": 191
+      "DebugActionIndex": 192
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VFXModule.pdb",
@@ -2741,7 +2756,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VFXModule.pdb"
       ],
-      "DebugActionIndex": 192
+      "DebugActionIndex": 193
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VRModule.pdb",
@@ -2753,7 +2768,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VRModule.pdb"
       ],
-      "DebugActionIndex": 193
+      "DebugActionIndex": 194
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VehiclesModule.pdb",
@@ -2765,7 +2780,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VehiclesModule.pdb"
       ],
-      "DebugActionIndex": 194
+      "DebugActionIndex": 195
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VideoModule.pdb",
@@ -2777,7 +2792,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VideoModule.pdb"
       ],
-      "DebugActionIndex": 195
+      "DebugActionIndex": 196
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VirtualTexturingModule.pdb",
@@ -2789,7 +2804,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.VirtualTexturingModule.pdb"
       ],
-      "DebugActionIndex": 196
+      "DebugActionIndex": 197
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.WindModule.pdb",
@@ -2801,7 +2816,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.WindModule.pdb"
       ],
-      "DebugActionIndex": 197
+      "DebugActionIndex": 198
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.XRModule.pdb",
@@ -2813,7 +2828,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.XRModule.pdb"
       ],
-      "DebugActionIndex": 198
+      "DebugActionIndex": 199
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.pdb",
@@ -2825,7 +2840,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.pdb"
       ],
-      "DebugActionIndex": 199
+      "DebugActionIndex": 200
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Assembly-CSharp.pdb",
@@ -2837,7 +2852,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Assembly-CSharp.pdb"
       ],
-      "DebugActionIndex": 200
+      "DebugActionIndex": 201
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.IK.Runtime.pdb",
@@ -2849,7 +2864,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.IK.Runtime.pdb"
       ],
-      "DebugActionIndex": 201
+      "DebugActionIndex": 202
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb",
@@ -2861,7 +2876,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Core.Runtime.pdb"
       ],
-      "DebugActionIndex": 202
+      "DebugActionIndex": 203
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.pdb",
@@ -2873,7 +2888,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Config.Runtime.pdb"
       ],
-      "DebugActionIndex": 203
+      "DebugActionIndex": 204
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Flow.pdb",
@@ -2885,7 +2900,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Flow.pdb"
       ],
-      "DebugActionIndex": 204
+      "DebugActionIndex": 205
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb",
@@ -2897,7 +2912,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.pdb"
       ],
-      "DebugActionIndex": 205
+      "DebugActionIndex": 206
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Collections.pdb",
@@ -2909,7 +2924,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Collections.pdb"
       ],
-      "DebugActionIndex": 206
+      "DebugActionIndex": 207
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.SpriteShape.Runtime.pdb",
@@ -2921,7 +2936,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.SpriteShape.Runtime.pdb"
       ],
-      "DebugActionIndex": 207
+      "DebugActionIndex": 208
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.PixelPerfect.pdb",
@@ -2933,7 +2948,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.PixelPerfect.pdb"
       ],
-      "DebugActionIndex": 208
+      "DebugActionIndex": 209
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.TextMeshPro.pdb",
@@ -2945,7 +2960,19 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.TextMeshPro.pdb"
       ],
-      "DebugActionIndex": 209
+      "DebugActionIndex": 210
+    },
+    {
+      "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.MemoryProfiler.pdb",
+      "DisplayName": "Copying Unity.MemoryProfiler.pdb",
+      "ActionType": "CopyFiles",
+      "Inputs": [
+        "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.pdb"
+      ],
+      "Outputs": [
+        "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.MemoryProfiler.pdb"
+      ],
+      "DebugActionIndex": 211
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb",
@@ -2957,7 +2984,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.pdb"
       ],
-      "DebugActionIndex": 210
+      "DebugActionIndex": 212
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb",
@@ -2969,7 +2996,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Runtime.pdb"
       ],
-      "DebugActionIndex": 211
+      "DebugActionIndex": 213
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.pdb",
@@ -2981,7 +3008,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Burst.pdb"
       ],
-      "DebugActionIndex": 212
+      "DebugActionIndex": 214
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Core.pdb",
@@ -2993,7 +3020,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.Core.pdb"
       ],
-      "DebugActionIndex": 213
+      "DebugActionIndex": 215
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Animation.Runtime.pdb",
@@ -3005,7 +3032,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Animation.Runtime.pdb"
       ],
-      "DebugActionIndex": 214
+      "DebugActionIndex": 216
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Tilemap.Extras.pdb",
@@ -3017,7 +3044,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Tilemap.Extras.pdb"
       ],
-      "DebugActionIndex": 215
+      "DebugActionIndex": 217
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UI.pdb",
@@ -3029,7 +3056,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/UnityEngine.UI.pdb"
       ],
-      "DebugActionIndex": 216
+      "DebugActionIndex": 218
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.InternalAPIEngineBridge.001.pdb",
@@ -3041,7 +3068,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.InternalAPIEngineBridge.001.pdb"
       ],
-      "DebugActionIndex": 217
+      "DebugActionIndex": 219
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Common.Runtime.pdb",
@@ -3053,7 +3080,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.2D.Common.Runtime.pdb"
       ],
-      "DebugActionIndex": 218
+      "DebugActionIndex": 220
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb",
@@ -3065,7 +3092,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.pdb"
       ],
-      "DebugActionIndex": 219
+      "DebugActionIndex": 221
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Timeline.pdb",
@@ -3077,7 +3104,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Timeline.pdb"
       ],
-      "DebugActionIndex": 220
+      "DebugActionIndex": 222
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Mathematics.pdb",
@@ -3089,7 +3116,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.Mathematics.pdb"
       ],
-      "DebugActionIndex": 221
+      "DebugActionIndex": 223
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb",
@@ -3101,7 +3128,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.RenderPipelines.Universal.Shaders.pdb"
       ],
-      "DebugActionIndex": 222
+      "DebugActionIndex": 224
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.State.pdb",
@@ -3113,14 +3140,14 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Managed/Unity.VisualScripting.State.pdb"
       ],
-      "DebugActionIndex": 223
+      "DebugActionIndex": 225
     },
     {
       "Annotation": "GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker",
       "DisplayName": "Running Burst Compiler",
       "ActionType": "RunRPCCommand",
-      "PayloadOffset": 17976,
-      "PayloadLength": 16820,
+      "PayloadOffset": 18076,
+      "PayloadLength": 16920,
       "PayloadDebugContentSnippet": "{\"PlayerBuildProgramLibrary.Da",
       "Action": "GenerateNativePluginsForAssemblies",
       "Inputs": [
@@ -3202,6 +3229,7 @@
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.TextMeshPro.dll",
+        "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll",
         "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.Burst.dll",
@@ -3275,7 +3303,7 @@
           "Recurse": 1
         }
       ],
-      "DebugActionIndex": 224
+      "DebugActionIndex": 226
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Plugins/x86_64/lib_burst_generated.dll",
@@ -3288,9 +3316,9 @@
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Plugins/x86_64/lib_burst_generated.dll"
       ],
       "ToBuildDependencies": [
-        224
+        226
       ],
-      "DebugActionIndex": 225
+      "DebugActionIndex": 227
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Plugins/x86_64/lib_burst_generated.pdb",
@@ -3303,22 +3331,22 @@
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Plugins/x86_64/lib_burst_generated.pdb"
       ],
       "ToBuildDependencies": [
-        224
+        226
       ],
-      "DebugActionIndex": 226
+      "DebugActionIndex": 228
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 34885,
+      "PayloadOffset": 35085,
       "PayloadLength": 30,
       "PayloadDebugContentSnippet": "DefaultCompany\nDad - A journey",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 227
+      "DebugActionIndex": 229
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/app.info",
@@ -3331,9 +3359,9 @@
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/app.info"
       ],
       "ToBuildDependencies": [
-        227
+        229
       ],
-      "DebugActionIndex": 228
+      "DebugActionIndex": 230
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Resources/unity default resources",
@@ -3345,7 +3373,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 229
+      "DebugActionIndex": 231
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey.exe",
@@ -3357,7 +3385,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/Dad - A journey.exe"
       ],
-      "DebugActionIndex": 230
+      "DebugActionIndex": 232
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -3369,7 +3397,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 231
+      "DebugActionIndex": 233
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -3381,7 +3409,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 232
+      "DebugActionIndex": 234
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -3393,7 +3421,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 233
+      "DebugActionIndex": 235
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -3405,7 +3433,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 234
+      "DebugActionIndex": 236
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -3417,7 +3445,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 235
+      "DebugActionIndex": 237
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -3429,7 +3457,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 236
+      "DebugActionIndex": 238
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -3441,7 +3469,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 237
+      "DebugActionIndex": 239
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -3453,7 +3481,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 238
+      "DebugActionIndex": 240
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -3465,7 +3493,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 239
+      "DebugActionIndex": 241
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -3477,7 +3505,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 240
+      "DebugActionIndex": 242
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -3489,7 +3517,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 241
+      "DebugActionIndex": 243
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -3501,7 +3529,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 242
+      "DebugActionIndex": 244
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -3513,7 +3541,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 243
+      "DebugActionIndex": 245
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -3525,7 +3553,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 244
+      "DebugActionIndex": 246
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -3537,7 +3565,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 245
+      "DebugActionIndex": 247
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -3549,7 +3577,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 246
+      "DebugActionIndex": 248
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -3561,7 +3589,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 247
+      "DebugActionIndex": 249
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -3573,7 +3601,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 248
+      "DebugActionIndex": 250
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/config",
@@ -3585,7 +3613,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 249
+      "DebugActionIndex": 251
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -3597,7 +3625,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 250
+      "DebugActionIndex": 252
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/UnityCrashHandler64.exe",
@@ -3609,7 +3637,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 251
+      "DebugActionIndex": 253
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/UnityPlayer.dll",
@@ -3621,7 +3649,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 252
+      "DebugActionIndex": 254
     },
     {
       "Annotation": "CopyFiles A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/WinPixEventRuntime.dll",
@@ -3633,7 +3661,7 @@
       "Outputs": [
         "A:/Projekt/DadJourney/Builds/DevBuild_v0.0.5/WinPixEventRuntime.dll"
       ],
-      "DebugActionIndex": 253
+      "DebugActionIndex": 255
     },
     {
       "Annotation": "Player",
@@ -3862,10 +3890,10 @@
         221,
         222,
         223,
+        224,
         225,
-        226,
+        227,
         228,
-        229,
         230,
         231,
         232,
@@ -3889,10 +3917,12 @@
         250,
         251,
         252,
-        253
+        253,
+        254,
+        255
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 254
+      "DebugActionIndex": 256
     }
   ],
   "FileSignatures": [
@@ -4053,6 +4083,9 @@
     },
     {
       "File": "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.Mathematics.pdb"
+    },
+    {
+      "File": "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.MemoryProfiler.pdb"
     },
     {
       "File": "A:/Projekt/DadJourney/Dad - A journey/Library/Bee/PlayerScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.pdb"
@@ -4448,7 +4481,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 254
+          "Player": 256
         }
 ,  "DefaultNodes": [
     0

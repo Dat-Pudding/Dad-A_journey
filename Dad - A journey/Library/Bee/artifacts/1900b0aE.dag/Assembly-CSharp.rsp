@@ -389,14 +389,18 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/HotBarBehaviour.cs"
+"Assets/Scripts/FirePotAction.cs"
+"Assets/Scripts/FireProjectile.cs"
+"Assets/Scripts/HotBarBehaviour.cs"
 "Assets/Scripts/PlayerAim.cs"
 "Assets/Scripts/PlayerInventory.cs"
+"Assets/Scripts/PlayerItemUsing.cs"
 "Assets/Scripts/PlayerMovement_SideScroll.cs"
 "Assets/Scripts/PotBehaviour.cs"
 "Assets/Scripts/ScriptableObjectSource/Inventory.cs"
 "Assets/Scripts/ScriptableObjectSource/Item.cs"
 "Assets/Scripts/ScriptableObjectSource/Item_Pot.cs"
+"Assets/Scripts/WaterPotAction.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
@@ -431,6 +435,7 @@
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexShakeB.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/VertexZoom.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/WarpTextExample.cs"
+"Assets/WaterProjectile.cs"
 -langversion:9.0
 
 /deterministic

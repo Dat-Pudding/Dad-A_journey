@@ -39,6 +39,7 @@ public class PlayerMovement_SideScroll : MonoBehaviour
 
     void Update() // Checking for Inputs, changing values accordingly
     {
+        playerRigidbody.rotation = 0;
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
         if (Input.GetAxisRaw("Jump") > 0)
