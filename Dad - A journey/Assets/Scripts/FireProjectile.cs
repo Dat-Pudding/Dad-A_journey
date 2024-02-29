@@ -11,6 +11,7 @@ public class FireProjectile : MonoBehaviour
 
     [Header("Projectile Stats")]
     public float projectileSpeed;
+    public float projetileFriction;
     public float projectileLifetime;
     public float projectileDamage;
 
@@ -20,6 +21,7 @@ public class FireProjectile : MonoBehaviour
     {
         PotAction = FindAnyObjectByType<FirePotAction>();
         projectileRB = this.GetComponent<Rigidbody2D>();
+
         projectileDamage = PotAction.damage;
         Vector2 impulseVector = transform.up * projectileSpeed;
         projectileRB.AddForce(impulseVector, ForceMode2D.Impulse);
@@ -27,7 +29,7 @@ public class FireProjectile : MonoBehaviour
 
     void Update()
     {
-
+        Destroy(gameObject, projectileLifetime * 2);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -35,6 +37,10 @@ public class FireProjectile : MonoBehaviour
         if (collision.collider.CompareTag("Ground"))
         {
             Destroy(gameObject, projectileLifetime);
+        }
+        if (collision == null)
+        {
+            Destroy(gameObject, projectileLifetime * 1.5f);
         }
     }
 }

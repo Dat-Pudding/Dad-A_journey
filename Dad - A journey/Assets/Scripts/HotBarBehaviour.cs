@@ -9,7 +9,10 @@ public class HotBarBehaviour : MonoBehaviour
     public Image WaterPotSprite;
     public Image AirPotSprite;
     public Image LightPotSprite;
-    public Image EmptyPotSprite;
+    public Sprite crackedPotSprite;
+    public Sprite potShardSprite;
+    public Sprite emptyPotSprite;
+    public Image EmptyPotImage;
 
     [Header("Item Prefabs")]
     public GameObject FirePotPrefab;
@@ -29,8 +32,9 @@ public class HotBarBehaviour : MonoBehaviour
     public FirePotAction firePotSkill;
     public WaterPotAction waterPotSkill;
 
-    [Header("Spawn Location")]
+    [Header("Misc")]
     public Transform hand;
+    public Inventory playerInventory;
 
     int hotKeyHit;
 
@@ -74,20 +78,39 @@ public class HotBarBehaviour : MonoBehaviour
         if (FirePotBehaviour.potData.hasAcquired)
         {
             FirePotSprite.color = Color.white;
+            playerInventory.hasFirePot = true;
         }
         if (WaterPotBehaviour.potData.hasAcquired)
         {
             WaterPotSprite.color = Color.white;
+            playerInventory.hasWaterPot = true;
         }
         if (AirPotBehaviour.potData.hasAcquired)
         {
             AirPotSprite.color = Color.white;
+            playerInventory.hasAirPot = true;
         }
         if (LightPotBehaviour.potData.hasAcquired)
         {
             LightPotSprite.color = Color.white;
+            playerInventory.hasLightPot = true;
+        }
+        if (EmptyPotBehaviour.potData.hasAcquired)
+        {
+            EmptyPotImage.color = Color.white;
+            playerInventory.hasEmptyPot = true;
         }
     }
+
+    void CheckPotShardCount()
+    {
+        if (playerInventory.currentShards == playerInventory.maxShards)
+        {
+            EmptyPotImage.sprite = crackedPotSprite;
+        }
+        //if ()
+    }
+
     void SelectCurrentPot()
     {
         switch (hotKeyHit)
@@ -197,4 +220,6 @@ public class HotBarBehaviour : MonoBehaviour
         LightPotPrefab.SetActive(false);
         EmptyPotPrefab.SetActive(true);
     }
+
+
 }

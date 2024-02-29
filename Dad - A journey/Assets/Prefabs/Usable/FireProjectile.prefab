@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 641808386222231457}
   m_Layer: 0
   m_Name: FireProjectile
-  m_TagString: Untagged
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +55,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: d84589f3882750e40905af9455c9826b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -99,11 +99,11 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
+  m_Mass: 1.5
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
+  m_GravityScale: 1.25
+  m_Material: {fileID: 6200000, guid: 3cab71786b78b744f8f6db37f4b4c34b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -113,7 +113,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &7552920316373922178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -132,7 +132,8 @@ MonoBehaviour:
   sound: {fileID: 0}
   PotAction: {fileID: 0}
   projectileSpeed: 10
-  projectileLifetime: 5
+  projetileFriction: 0
+  projectileLifetime: 0.5
   projectileDamage: 2
 --- !u!58 &641808386222231457
 CircleCollider2D:
@@ -143,7 +144,7 @@ CircleCollider2D:
   m_GameObject: {fileID: 8338823717704710321}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 3cab71786b78b744f8f6db37f4b4c34b, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0

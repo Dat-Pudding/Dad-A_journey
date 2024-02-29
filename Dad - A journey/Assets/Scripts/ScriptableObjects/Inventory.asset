@@ -21,11 +21,8 @@ MonoBehaviour:
   hasHerb: 0
   hasShard: 0
   currentHerbs: 0
-  currentShards: 0
+  currentShards: 1
   currentKeys: 0
   maxHerbs: 3
   maxShards: 12
   maxKeys: 3
-  invSlots: 0000000000000000
-  collectTracker: 000000000000000000000000
-  stackMaximums: 000000000000000000000000

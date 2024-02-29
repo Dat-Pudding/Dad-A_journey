@@ -18,31 +18,36 @@ public class PlayerMovement_SideScroll : MonoBehaviour
     RaycastHit2D headRayHit2D;
     RaycastHit2D footRayHit2D;
 
-    float horizontalInput;
-    float xVelocity;
-    float yVelocity;
-    bool isOnGround;
-    bool isJumping;
-    bool isCrouching;
-    bool isStanding;
-    bool canStandUp;
+    public int layerMask;
+    public float horizontalInput;
+    public float xVelocity;
+    public float yVelocity;
+    public bool isOnGround;
+    public bool isJumping;
+    public bool isCrouching;
+    public bool isStanding;
+    public bool canStandUp;
 
     void Start()
     {
+        layerMask = (1 << LayerMask.NameToLayer("Ground")) ;
         playerTransform = GetComponent<Transform>();
         playerRigidbody = GetComponent<Rigidbody2D>();
-
+        playerFeet = GetComponent<Transform>().Find("Foot");
         playerRigidbody.gravityScale = gravity;
         playerRigidbody.mass = playerMass;
         isStanding = true;
+        isOnGround = true;
     }
 
     void Update() // Checking for Inputs, changing values accordingly
     {
+        footRayHit2D = Physics2D.Raycast(playerFeet.position, -playerTransform.up, 0.7f);
+
         playerRigidbody.rotation = 0;
         horizontalInput = Input.GetAxisRaw("Horizontal");
 
-        if (Input.GetAxisRaw("Jump") > 0)
+        if (Input.GetKey(KeyCode.Space))
         {
             isJumping = true;
         }
@@ -65,6 +70,7 @@ public class PlayerMovement_SideScroll : MonoBehaviour
 
     private void FixedUpdate() // Using Input bools to determine correct behaviour and apply accordingly
     {
+        Debug.DrawLine(playerFeet.position, new Vector3(playerFeet.position.x, playerFeet.position.y - 0.7f, playerFeet.position.z), Color.red);
         MoveLateral(playerTransform, movementSpeed, horizontalInput);
         CheckForGround(playerTransform, playerFeet);
         CheckForCeiling(playerTransform, playerHead);
@@ -107,17 +113,14 @@ public class PlayerMovement_SideScroll : MonoBehaviour
 
     void CheckForGround(Transform pTransform, Transform feet) // Casts Ray2D downwards from "Feet" Transform, sets bool true if hitting collider of tag "Ground"
     {
-        footRayHit2D = Physics2D.Raycast(feet.position, -pTransform.up, 0.1f, 3);
-
+        Debug.Log(footRayHit2D.collider.tag.ToString());
         if (footRayHit2D.collider.CompareTag("Ground"))
         {
             isOnGround = true;
-        }
-        else
-        {
-            isOnGround = false;
             return;
         }
+        else
+        { isOnGround = false; return; }
     }
 
     void GetCrouched(Rigidbody2D player) // Disables BoxCollider2D and "crouching" GameObject
